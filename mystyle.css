@@ -3,10 +3,10 @@ body {
   background-color: #5A3E36;
 }
 div {
-  border: 1px solid ghostwhite;
-  margin-top: 50px;
-  margin-bottom: 100px;
-  margin-right: 600px;
+  border: 10px solid #E08119;
+  margin-top: 500px;
+  margin-bottom: 500px;
+  margin-right: 20px;
   margin-left: 20px;
   background-color: ghostwhite;
 }
