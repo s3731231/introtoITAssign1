@@ -1,0 +1,32 @@
+/* This is my first try at coding with css (and html5)- copied some snippets from w3schools.com and changed to suit and brought together*/
+body {
+  background-color: lavenderblush;
+}
+div {
+  border: 1px solid lightgrey;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  margin-right: 200px;
+  margin-left: 200px;
+  background-color: lightgrey;
+}
+h1 {
+  color: navy;
+  font-family: helvetica;
+}
+h2 {
+  color: navy;
+  font-family: helvetica;
+}
+h3 {
+  color: teal;
+  font-family: helvetica;
+}
+h4 {
+  color: navy;
+  font-family: helvetica;
+}
+p {
+  color: slategrey;
+  font-family: helvetica;
+}
