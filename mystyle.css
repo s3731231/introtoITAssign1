@@ -3,12 +3,12 @@ body {
   background-color: mintcream;
 }
 div {
-  border: 1px solid lavenderblush;
+  border: 1px solid ghostwhite;
   margin-top: 50px;
   margin-bottom: 100px;
-  margin-right: 80px;
-  margin-left: 80px;
-  background-color: lavenderblush;
+  margin-right: 50px;
+  margin-left: 50px;
+  background-color: ghostwhite;
 }
 h1 {
   color: darkslategrey;
