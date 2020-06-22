@@ -1,12 +1,12 @@
 /* This is my first try at coding with css (and html5)- copied some snippets from w3schools.com and changed to suit and brought together*/
 body {
-  background-color: black;
+  background-color: olive;
 }
 div {
   border: 1px solid ghostwhite;
   margin-top: 50px;
   margin-bottom: 100px;
-  margin-right: 50px;
+  margin-right: 400px;
   margin-left: 50px;
   background-color: ghostwhite;
 }
