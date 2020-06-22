@@ -1,14 +1,17 @@
 /* This is my first try at coding with css (and html5)- copied some snippets from w3schools.com and changed to suit and brought together*/
 body {
-  background-color: #5A3E36;
+  /*background-color: #5A3E36;*/
+  background-image: url("orchidbackground.png");
+  background-repeat: no-repeat;
+  background-position: right top;
 }
 div {
   border: 1px solid #E08119;
-  margin-top: 120px;
+  margin-top: 5px;
   margin-bottom: 200px;
-  margin-right: 20px;
+  margin-right: 5px;
   margin-left: 20px;
-  background-color: ghostwhite;
+  /*background-color: ghostwhite;*/
 }
 h1 {
   color: darkslategrey;
@@ -33,14 +36,14 @@ h4 {
   font-family: helvetica;
   font-size: 18px;
   margin-left: 20px;
-  margin-right: 30px;
+  margin-right: 300px;
 }
 p {
   color: black;
   font-family: verdana;
   font-size: 16px;
   margin-left: 40px;
-  margin-right: 90px;
+  margin-right: 300px;
 }
 blockquote {
   color: black;
