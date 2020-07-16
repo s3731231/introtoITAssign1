@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Lunardo Scroll</title>
+    <style>
+      html {
+        background-color:#eff;
+        scroll-behavior: smooth;
+      }
+      body {
+        margin: 0;
+        padding: 0;
+        display: relative;
+      }
+      body > * {
+        box-sizing: border-box;
+      }
+      header {
+        border: solid orange 1px;
+      }
+      header, nav {
+        text-align: center;
+      }
+      nav {
+        position: sticky;
+        top:0px;
+        background:repeating-linear-gradient(90deg, #3333, #666c 20px, #3333 40px );
+      }
+      nav a {
+        padding: 10px;
+        border: 1px green solid;
+        display: inline-block;
+        background-color:#ccc;
+        color: #c00;
+      }
+      nav a.current {
+        background-color:#FFF;
+        transition: 0.3s;
+      }
+      main {
+      }
+      article {
+        padding-top: 50px;
+        height:100vh;
+        border: thin red solid;
+        background-color: #eeffff;
+      }
+      article:nth-child(2n) {
+        background-color: lightgoldenrodyellow;
+      }
+      footer {
+        background-color: black;
+        color: white;
+        height:1000px;
+      }
+    </style>
+    <script>
+      window.onscroll = function() {
+
+      }
+    </script>
+  </head>
+
+  <body>
+    <header><h1>Logo - Lunardo</h1></header>
+    <nav>
+      <a href=#AA>LA</a>
+      <a href=#AB>LB</a>
+      <a href=#AC>LC</a>
+      <a href=#AD>LD</a>
+      <a href=#AE>LE</a>
+      <a href=#AF>LF</a>
+      <a href=#AG>LG</a>
+    </nav>
+
+    <main>
+      <article id=AA><h1>AA</h1></article>
+      <article id=AB><h1>AB</h1></article>
+      <article id=AC><h1>AC</h1></article>
+      <article id=AD><h1>AD</h1></article>
+      <article id=AE><h1>AE</h1></article>
+      <article id=AF><h1>AF</h1></article>
+      <article id=AG><h1>AG</h1></article>
+    </main>
+    
+    <footer>Footer</footer>
+
+  </body>
+
+</html>
